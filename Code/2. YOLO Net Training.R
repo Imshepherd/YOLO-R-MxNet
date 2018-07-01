@@ -378,13 +378,13 @@ my.callback_epoch <- function (prefix = 'Model/yolo/yolo_v1',
     if (iteration%%period == 0) {
       env_model <- env$model
       env_all_layers <- env_model$symbol$get.internals()
-      softmax_final_symbol <- which(env_all_layers$outputs == out_symbol_name) %>% env_all_layers$get.output()
-      ECG_model <- list(symbol = softmax_final_symbol,
+      final_symbol <- which(env_all_layers$outputs == out_symbol_name) %>% env_all_layers$get.output()
+      model_write_out <- list(symbol = final_symbol,
                         arg.params = env_model$arg.params,
                         aux.params = env_model$aux.params)
-      ECG_model[[2]] <- append(ECG_model[[2]], fixed.params)
-      class(ECG_model) <- "MXFeedForwardModel"
-      mx.model.save(ECG_model, prefix, iteration)
+      model_write_out[[2]] <- append(model_write_out[[2]], fixed.params)
+      class(model_write_out) <- "MXFeedForwardModel"
+      mx.model.save(model_write_out, prefix, iteration)
       if (verbose) {
         message(sprintf("Model checkpoint saved to %s-%04d.params", prefix, iteration))
       }
@@ -399,7 +399,7 @@ my.callback_epoch <- function (prefix = 'Model/yolo/yolo_v1',
 
 n.cpu = 4
 device.cpu <- lapply(0:(n.cpu-1), function(i) {mx.cpu(i)})
-CTX = device.cpu#mx.gpu(0)
+CTX = device.cpu # mx.gpu(0)
 
 YOLO_model <- mx.model.FeedForward.create(FINAL_YOLO,
                                           X = my_iter, 
