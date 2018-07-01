@@ -107,7 +107,7 @@ rect( xleft = Train.box_info$xleft_1[1], xright = Train.box_info$xright_1[1],
 
 
 
-#1-1. Test YOLO encoding
+#1-2. Test YOLO encoding
 
 n.grid <- 7
 
