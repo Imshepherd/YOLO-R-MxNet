@@ -5,7 +5,7 @@
 
 
 
-### 1. Introduction
+# 1. Introduction
 
 This is mxnet implementation of the YOLO:Real-Time Object Detection.
 YOLO is an unified framework for object detection with a single network. 
