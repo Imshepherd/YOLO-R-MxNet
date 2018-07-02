@@ -1,4 +1,4 @@
-# YOLO v1 with R language 
+# YOLO v1 with R language ( MxNet library )
 #### MxNet：A flexible and efficient library for deep learning.
 
 (Version 0.1, Last updated :2018.07.02)
