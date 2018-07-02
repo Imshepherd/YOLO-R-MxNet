@@ -4,9 +4,9 @@
 
 #Get data from url: 'https://apache-mxnet.s3-accelerate.amazonaws.com/gluon/dataset/pikachu/'
 # Down load thoes filex into "Data/Pikachu/1. raw data/" #
-#Train imgrec sets : 'train.rec' 
-#Train imgidx sets : 'train.idx' 
-#Valid imgrec sets : 'val.rec'
+#Train imgrec sets : 'https://apache-mxnet.s3-accelerate.amazonaws.com/gluon/dataset/pikachu/train.rec' 
+#Train imgidx sets : 'https://apache-mxnet.s3-accelerate.amazonaws.com/gluon/dataset/pikachu/train.idx' 
+#Valid imgrec sets : 'https://apache-mxnet.s3-accelerate.amazonaws.com/gluon/dataset/pikachu/val.rec'
 
 
 #library
