@@ -3,8 +3,8 @@
 
 #### [MxNet](https://mxnet.apache.org/)：A flexible and efficient library for deep learning.
 
-<p >
-</p>
+
+
 ## 1. Introduction
 
 This is mxnet implementation of the YOLO:Real-Time Object Detection.
