@@ -40,7 +40,7 @@ For more detail. Please see：
   <img src="https://user-images.githubusercontent.com/3307514/29479494-5dc28a02-8427-11e7-91d0-2849b88c17cd.png">
 </p>
 
-The dataset consists of 1000 pikachus with random pose/scale/position in random background images. The exact locations are recorded as ground-truth for training and validation.
+The dataset consists of 1088 pikachus with random pose/scale/position in random background images. The exact locations are recorded as ground-truth for training and validation.
 
 
 
