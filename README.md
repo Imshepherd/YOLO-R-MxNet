@@ -33,8 +33,8 @@ MobileNet v2| 71.90| 90.49| a3124ce7 (13.5 MB)| [netscope](http://ethereon.githu
 For testing model purposes, we’ll train our model to detect Pikachu in the wild. We use a synthetic toy dataset by rendering images from open-sourced 3D Pikachu models. 
 
 For more detail. Please see：
--. https://gluon.mxnet.io/chapter08_computer-vision/object-detection.html.
--. or http://zh.gluon.ai/chapter_computer-vision/pikachu.html.
+-  https://gluon.mxnet.io/chapter08_computer-vision/object-detection.html.
+-  or http://zh.gluon.ai/chapter_computer-vision/pikachu.html.
                          
 
 The dataset consists of 1000 pikachus with random pose/scale/position in random background images. The exact locations are recorded as ground-truth for training and validation.
