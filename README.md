@@ -34,8 +34,9 @@ For testing model purposes, we’ll train our model to detect Pikachu in the wil
 
 For more detail. Please see：
 -  https://gluon.mxnet.io/chapter08_computer-vision/object-detection.html.
--  or http://zh.gluon.ai/chapter_computer-vision/pikachu.html.
-                         
+-  http://zh.gluon.ai/chapter_computer-vision/pikachu.html.
+
+![Pikachu](https://user-images.githubusercontent.com/3307514/29479494-5dc28a02-8427-11e7-91d0-2849b88c17cd.png "Pikachu fig")
 
 The dataset consists of 1000 pikachus with random pose/scale/position in random background images. The exact locations are recorded as ground-truth for training and validation.
 
