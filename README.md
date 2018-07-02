@@ -1,12 +1,13 @@
 # YOLO v1 with R language ( MxNet library )
+(Version 0.1, Last updated :2018.07.02)
+
 #### MxNet：A flexible and efficient library for deep learning.
 
-(Version 0.1, Last updated :2018.07.02)
+
 
 ### 1.Introduction
 
-This is tensorflow implementation of the YOLO:Real-Time Object Detection
-
+This is mxnet implementation of the YOLO:Real-Time Object Detection.
 YOLO is an unified framework for object detection with a single network. 
 
 It has been originally introduced in this research [article](https://pjreddie.com/media/files/papers/yolo.pdf).
