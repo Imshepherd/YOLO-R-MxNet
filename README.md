@@ -7,12 +7,16 @@
 
 This is tensorflow implementation of the YOLO:Real-Time Object Detection
 
-It can only do predictions using pretrained YOLO_small & YOLO_tiny network for now.
+YOLO is an unified framework for object detection with a single network. 
+It has been originally introduced in this research [article](https://pjreddie.com/media/files/papers/yolo.pdf).
 
-(+ YOLO_face detector from https://github.com/quanhua92/darknet )
+This repository contains a MxNet implementation of a MobileNets_V2-based YOLO networks.
+For details with Google's MobileNets, please read the following papers:
+- [v1] [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
+- [v2] [Inverted Residuals and Linear Bottlenecks: Mobile Networks for Classification, Detection and Segmentation](https://arxiv.org/abs/1801.04381)
 
-I extracted weight values from darknet's (.weight) files.
 
-My code does not support training. Use darknet for training.
 
-Original code(C implementation) & paper : http://pjreddie.com/darknet/yolo/
+
+
+
